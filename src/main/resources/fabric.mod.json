@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "f3rebinder",
+	"version": "${version}",
+	"name": "F3 Rebinder",
+	"description": "Small client-side fabricAPI-less F3 re-binder mod",
+	"authors": ["Laysar"],
+	"contact": {
+		"homepage": "https://github.com/LeSaRXD/F3Rebinder",
+		"sources": "https://github.com/LeSaRXD/F3Rebinder"
+	},
+	"license": "MIT",
+	"icon": "assets/f3rebinder/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"me.laysar.f3rebinder.F3ReBinder"
+		]
+	},
+	"mixins": [
+		"f3rebinder.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "${minecraft_version}"
+	}
+}
